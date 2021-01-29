@@ -1,5 +1,5 @@
 
-def inttoroman2(number):
+def inttoroman(number):
 	digitvalues = [1000, 900, 500,  100, 90, 50, 40, 10, 9, 5, 4, 1]
 	romanianvalues = ['M', 'CM', 'D', 'C', 'XC', 'L', 'XL',  'X', 'IX', 'V', 'IV', 'I']
 	n = number
@@ -21,5 +21,5 @@ def inttoroman2(number):
 	#print(finnaly)
 
 for i in range(100):
-	inttoroman2(i)
-inttoroman2(90)
+	inttoroman(i)
+inttoroman(90)
